@@ -14,3 +14,5 @@ activate
 Instalación entorno virtual
 py -m venv Logica
 
+
+

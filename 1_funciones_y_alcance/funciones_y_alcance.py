@@ -17,9 +17,9 @@ print(return_saludo(), "llamando directamente la funcion")
 
 
 def funtcion_argumento(arg , arg2 ):
-    print(f" Con argumentos: {arg2}, {arg}")
+    print(f" Con argumentos: {arg}, {arg2}")
     
-funtcion_argumento("ARGUMENTOS", "argumento2")
+funtcion_argumento("argumento1", "argumento2")
 
 #Con argumento predeterminado
 def funtcion_argumento_predeterminado(arg = "default" , arg2 = "predeterminado"):
@@ -40,7 +40,7 @@ print(return_args_greet("hi", "andres"))
 def multiple_return_greet():
     return "hi", "andres", "!"
 
-saludo, nombre, i = multiple_return_greet()
+saludo , nombre, i = multiple_return_greet()
 print(f"multiples valores en return {saludo}, {nombre}, {i}")
 
 #Con un número varible de argumentos

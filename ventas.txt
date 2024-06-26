@@ -1,0 +1,3 @@
+nombre del producto: ser
+ Cantidad del producto:  2
+ Precio: 23.0
